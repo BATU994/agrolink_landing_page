@@ -37,6 +37,12 @@ export function FinalCTA() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
+            <a
+            href="https://blockchain-project-git-main-magzhan-skakovs-projects.vercel.app?_vercel_share=Ey1bpTP5XqVeWn5cMloHNTtiH14kfPd1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
             <Button 
               size="lg" 
               className="bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white px-10 py-7 text-xl shadow-2xl shadow-emerald-500/50 group"
@@ -44,13 +50,8 @@ export function FinalCTA() {
               <Rocket className="w-6 h-6 mr-2 group-hover:translate-x-1 transition-transform" />
               Launch App
             </Button>
-            <Button 
-              size="lg" 
-              className="bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white px-10 py-7 text-xl shadow-2xl shadow-purple-500/50 group"
-            >
-              <FileText className="w-6 h-6 mr-2 group-hover:rotate-12 transition-transform" />
-              Invest Now
-            </Button>
+            </a>
+            
           </div>
         </motion.div>
       </div>

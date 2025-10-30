@@ -40,13 +40,19 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+            href="https://blockchain-project-git-main-magzhan-skakovs-projects.vercel.app?_vercel_share=Ey1bpTP5XqVeWn5cMloHNTtiH14kfPd1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
             <Button
               size="lg"
               className="bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white px-8 py-6 text-lg shadow-lg shadow-emerald-500/50"
             >
               Get Started
             </Button>
-            
+            </a>
           </div>
         </motion.div>
 
@@ -57,14 +63,22 @@ export function Hero() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 0.3 }}
         >
-          <div className="relative w-full max-w-2xl mx-auto h-64 rounded-2xl bg-gradient-to-br from-emerald-500/10 to-purple-500/10 backdrop-blur-sm border border-white/10 flex items-center justify-center p-8">
-            <img
-              src={logo}
-              alt="Agrolink ChickChain"
-              className="max-h-full object-contain z-10 relative"
-            />
-            <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/20 to-purple-500/20 blur-xl" />
-          </div>
+          <a
+            href="https://blockchain-project-git-main-magzhan-skakovs-projects.vercel.app?_vercel_share=Ey1bpTP5XqVeWn5cMloHNTtiH14kfPd1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
+            <div className="relative w-full max-w-2xl mx-auto h-64 rounded-2xl bg-gradient-to-br from-emerald-500/10 to-purple-500/10 backdrop-blur-sm border border-white/10 flex items-center justify-center p-8 transition-transform hover:scale-[1.02]">
+              <img
+                src={logo}
+                alt="Agrolink ChickChain"
+                className="max-h-full object-contain z-10 relative"
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/20 to-purple-500/20 blur-xl" />
+            </div>
+          </a>
+
         </motion.div>
       </div>
     </section>
